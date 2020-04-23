@@ -1,0 +1,500 @@
+   87  git clone https://github.com/revamar/corona-virus.git
+   88  ls
+   89  cd corona-virus/
+   90  ls
+   91  git branch -a
+   92  mkdir nagar
+   93  cd nagar/
+   94  git init
+   95  ls
+   96  ls -a
+   97  ls -al
+   98  ls .git/
+   99  pwd
+  100  git status
+  101  git remote -v
+  102  git remote add origin 
+  103  git remote add origin https://github.com/revamar/corona.git
+  104  git remote -v
+  105  git status
+  106  git banch -a
+  107  git branch -a
+  108  touch gullu.txt
+  109  git add .
+  110  git commit -m "add gullu"
+  111  git status
+  112  git push -u origin
+  113  git push -u origin master
+  114  git fetch origin
+  115  ls
+  116  git push -u origin master
+  117  git push -u origin
+  118  git branch -a
+  119  git merge origin/master 
+  120  git checkout origin/master 
+  121  git log
+  122  git status
+  123  git fetch 
+  124  clear
+  125  git status
+  126  git checkout master 
+  127  git status
+  128  git merge origin/master 
+  129  git checkout origin/master 
+  130  git merge master 
+  131  git merge origin master
+  132  git merge origin
+  133  git merge origin/master 
+  134  git status
+  135  git checkout master 
+  136  ls
+  137  git merge origin/master 
+  138  git merge master 
+  139  git 
+  140  git pull
+  141  git pull origin master
+  142  git pull origin/master
+  143  git pull origin master
+  144  git checkout origin/master 
+  145  git pull
+  146  git pull origin master
+  147  git merge master 
+  148  git checkout master 
+  149  git merge origin/master 
+  150  git push -u origin 
+  151  git push -u origin master
+  152  git --set-upstream origin master
+  153  git push --set-upstream origin master
+  154  clear
+  155  git status
+  156  git push -u origin master
+  157  git checkout origin/master 
+  158  git merge master
+  159  rm -dfR .git
+  160  ls
+  161  git status
+  162  clear
+  163  git init
+  164  ls
+  165  rm README.md 
+  166  ls
+  167  clear
+  168  ls -a
+  169  git remote -v
+  170  git remote add origin https://github.com/revamar/virus.git
+  171  git remote -v
+  172  git status
+  173  git pull origin master
+  174  git checkout origin/master 
+  175  git merge master
+  176  git push -u origin master
+  177  git branch -a
+  178  git checkout master 
+  179  touch amar.txt
+  180  git status
+  181  git add .
+  182  git commit -m "commit froom local"
+  183  git status
+  184  git push 
+  185  git log -graph
+  186  git log --graph
+  187  git cat-file -p c93886aa05c68af659118e8037068de5b17d5f50
+  188  git cat-file -p 064af9a0b134c9c96c0390858a07c2cf06559508
+  189  git show author 064af9a0b134c9c96c0390858a07c2cf06559508
+  190  git show --author 064af9a0b134c9c96c0390858a07c2cf06559508
+  191  git show -author 064af9a0b134c9c96c0390858a07c2cf06559508
+  192  git show
+  193  git show --help
+  194  git show --pretty
+  195  git status
+  196  clear
+  197  ls
+  198  cd ..
+  199  rm -dRf .nagar/
+  200  ls
+  201  cd nagar/
+  202  ls
+  203  rm -dRf nagar/
+  204  ls
+  205  cd ..
+  206  rm -dRf nagar/
+  207  ls
+  208  ls
+  209  mkdir nagar
+  210  cd nagar/
+  211  clear
+  212  ls -a
+  213  echo "# Readme file" >> README.md
+  214  ls
+  215  cat README.md 
+  216  ls
+  217  echo "# corona-virus" >> README.md
+  218  git init
+  219  git add README.md
+  220  git commit -m "first commit"
+  221  git remote add origin https://github.com/revamar/corona-virus.git
+  222  git push -u origin masterls -a
+  223  ls -a
+  224  git remote -v
+  225  git push -u origin master
+  226  git branch -a
+  227  touch amar.txt
+  228  touch gul.txt
+  229  ls
+  230  git add .
+  231  git commit -m "text files add"
+  232  git push
+  233  git branch -a
+  234  touch cloned.txt
+  235  git add  .
+  236  git commit -m "clone commt"
+  237  git push
+  238  git remote -v
+  239  git status
+  240  ls
+  241  git pull
+  242  ls
+  243  git log
+  244  git log --graph
+  245  clear
+  246  git clone https://github.com/revamar/personal-effects.git
+  247  git status
+  248  cd personal-effects/
+  249  git status
+  250  git branch
+  251  git branch -a
+  252  clear
+  253  git branch -a
+  254  git branch -a
+  255  git status
+  256  clear
+  257  git status
+  258  git branch -a
+  259  echo "# personal-effects" >> README.md
+  260  git add .
+  261  git status
+  262  git push
+  263  git push -u origin master
+  264  git remote -v
+  265  git push -u origin master
+  266  git config --list
+  267  git config user.name "revamar"
+  268  git config --list
+  269  git config user.email "selenium.xpert@gmail.com"
+  270  git config --list
+  271  git push -u origin master
+  272  git init
+  273  git status
+  274  git branch -a
+  275  git commit -m "add platform project"
+  276  git push -u origin master
+  277  git branch -a
+  278  git status
+  279  git config --global user.email "selenium.xpert@gmail.com"
+  280  git config --global user.name "revamar"
+  281  git config --global list
+  282  git config --global --list
+  283  git status
+  284  git branch -a
+  285  git pull
+  286  git log --oneline
+  287  git log 
+  288  git branch -a
+  289  git merge master origin/add-apache-license-1 
+  290  git log
+  291  git branch -a
+  292  git checkout origin/master 
+  293  git status
+  294  git log
+  295  mongo
+  296  git statu
+  297  git status
+  298  git branch -a
+  299  git pull
+  300  git pull origin maste
+  301  git pull origin master
+  302  git rm
+  303  git merge origin/master
+  304  git merge origin/add-apache-license-1 
+  305  git log
+  306  git branch origin/master 
+  307  git branch
+  308  git rebase master
+  309  git status
+  310  git add .
+  311  git commit -m "add modified build.gradle"
+  312  git status
+  313  git push
+  314  git push -u origin 
+  315  git push -u origin/master 
+  316  git push origin/master 
+  317  git branch master
+  318  git status
+  319  git rebase origin/master
+  320  git merge origin/master 
+  321  git log --oneline
+  322  git checkout origin/add-apache-license-1 
+  323  git pull
+  324  git pull origin
+  325  git pull origin/master
+  326  git merge master
+  327  git log --oneline
+  328  git checkout master
+  329  git push
+  330  git log --oneline
+  331  git log
+  332  git merge origin/master 
+  333  git branch -a
+  334  git push origin --delete remotes/origin/add-apache-license-1
+  335  git branch -d /origin/add-apache-license-1
+  336  git branch -d origin/add-apache-license-1
+  337  git status -a
+  338  git branch -a
+  339  git branch -d origin/master
+  340  git status
+  341  git branch -a
+  342  git diff master origin/add-apache-license-1 
+  343  git diff origin/master origin/add-apache-license-1 
+  344  git push origin --delete remotes/origin/add-apache-license-1
+  345  git push origin --delete origin/add-apache-license-1
+  346  git status
+  347  git branch
+  348  touch file1.txt
+  349  git status
+  350  git status 
+  351  git add .
+  352  git commit -m "add file1.txt"
+  353  git push
+  354  git status
+  355  git branch devauto
+  356  git checkout devauto 
+  357  git status
+  358  git branch
+  359  git log
+  360  git rebase master
+  361  touch file2.txt
+  362  git status
+  363  git checkout master 
+  364  git status
+  365  git checkout devauto 
+  366  git add .
+  367  git commit -m "commit from devauto branch: adding file2.txt"
+  368  git status
+  369  git checkout master 
+  370  git push
+  371  git checkout devauto 
+  372  git push
+  373  git push origin/devauto
+  374  git push origin devauto
+  375  git status
+  376  git branch -a
+  377  git checkout master 
+  378  git status
+  379  git log --oneline
+  380  git pull
+  381  git branch -d devauto
+  382  git branch -D devauto
+  383  git branch
+  384  git pull
+  385  git branch
+  386  git branch -a
+  387  git merge origin/devauto 
+  388  git status
+  389  git log --oneline
+  390  git push origin 
+  391  git push origin --delete origin/devauto 
+  392  git push origin --delete remote/origin/devauto 
+  393  git push origin -d remote/origin/devauto 
+  394  git fetch -p
+  395  git status
+  396  git branch
+  397  git branch origin --delete origin/devauto
+  398  git branch origin --delete remote/origin/devauto
+  399  git push origin --delete remote/origin/devauto
+  400  git push origin --delete origin/devauto
+  401  git push origin --delete devauto
+  402  git status
+  403  git branch -a
+  404  git push origin --delete 
+  405  git push origin --delete add-apache-license-1
+  406  ls -l
+  407  rm file1.txt file2.txt 
+  408  ls -l
+  409  git status
+  410  git add .
+  411  git commit -m "deleting files"
+  412  git status
+  413  git push
+  414  git log -graph
+  415  git log --graph --oneline
+  416  touch file1.txt
+  417  git status
+  418  git branch devauto
+  419  git checkout devauto 
+  420  git status
+  421  git log --onelinw
+  422  git log --oneline
+  423  touch file2.txt
+  424  git checkout master
+  425  git status
+  426  git add file1.txt 
+  427  git commit -m "add file1 from master"
+  428  git checkout devauto 
+  429  git log --oneline
+  430  git status
+  431  git add file2.txt 
+  432  git status
+  433  git log --oneline
+  434  git checkout master 
+  435  git log --oneline
+  436  git checkout devauto 
+  437  git status
+  438  git rebase master 
+  439  git restore --staged file2.txt
+  440  git status
+  441  git rebase master 
+  442  git log --oneline
+  443  git status
+  444  git add .
+  445  git commit -m "file2 add from devauto branch"
+  446  git status
+  447  ls
+  448  git log --oneline
+  449  git checkout master 
+  450  git log --oneline
+  451  git checkout devauto 
+  452  git push
+  453  git push origin devauto
+  454  git checkout master 
+  455  git status
+  456  git push
+  457  git stauts
+  458  git status
+  459  git pull origin devauto 
+  460  git status
+  461  git branch 
+  462  git diff master devauto 
+  463  git diff --cached master devauto 
+  464  git diff devauto master
+  465  git diff devauto master --cached
+  466  git diff --help
+  467  git branch -a
+  468  git diff master origin/devauto 
+  469  git rebase devauto 
+  470  git log -o
+  471  git log --oneline
+  472  git merge origin/devauto 
+  473  git merge devauto 
+  474  git push
+  475  git log --oneline
+  476  git status
+  477  git branch -d devauto
+  478  git status
+  479  git push origin --delete devauto
+  480  git status
+  481  git log --oneline
+  482  rm file1.txt file2.txt 
+  483  git add .
+  484  git commit -m "deleting files again"
+  485  git push
+  486  git status
+  487  cls
+  488  clear
+  489  tee
+  490  tree
+  491  git status
+  492  git branch
+  493  git add .gitignore 
+  494  git status
+  495  git commit -m "add some more ignore"
+  496  git stats
+  497  service mongod {start|stop|restart|status}
+  498  service mongod status
+  499  service status mongod
+  500  systemctl status
+  501  git init
+  502  ls
+  503  ls -a
+  504  git branch
+  505  touch masterfile.txt
+  506  ls
+  507  git branch 
+  508  git add .
+  509  git status
+  510  git commit -m "first master commit"
+  511  git branch
+  512  git branch -b ticket
+  513  git checkout -b ticket
+  514  git branch
+  515  git status
+  516  git log --oneline
+  517  git checkout master
+  518  git log --oneline
+  519  git checkout -b ticket
+  520  git checkout ticket
+  521  touch file1.txt
+  522  git status 
+  523  git add .
+  524  git commit -m "ticket branch 1st commit"
+  525  git log --oneline
+  526  touch file2.txt
+  527  git add .
+  528  git commit -m "ticket branch 2nd commit"
+  529  git log --oneline
+  530  git checkout master
+  531  git log --oneline
+  532  git checkout ticket
+  533  git merge-base ticket master -v
+  534  git merge-base ticket master
+  535  git log --oneline
+  536  git checkout master
+  537  git log --oneline
+  538  git checkout ticket
+  539  git rebase -i 
+  540  git rebase -i cdd43f4
+  541  git status
+  542  touch file3.txt
+  543  git add .
+  544  git commit -m "ticket branch 3rd commit"
+  545  git log --oneline
+  546  touch file4.txt
+  547  git add .
+  548  git commit -m "ticket branch 4th commit"
+  549  git log --oneline
+  550  git merge-base ticket master
+  551  git rebase -i cdd43f4
+  552  git log --oneline
+  553  git reflog
+  554  ls
+  555  git checkout master
+  556  ls
+  557  git checkout ticket
+  558  git rebase -i cdd43f4
+  559  git branch -d ticket
+  560  git checkout master
+  561  git merge ticket
+  562  git log
+  563  git branch -d ticket
+  564  git branch
+  565  git checkout -b x
+  566  git checkout -b y
+  567  git branch
+  568  git log
+  569  git checkout master
+  570  touch cherry.txt
+  571  git status
+  572  git add .
+  573  git commit -m "master commit for cerry picking"
+  574  git log --oneline
+  575  git checkout x
+  576  git log --oneline
+  577  git log graph
+  578  git log --graph
+  579  git cherry-pick 779d2ba 
+  580  ls
+  581  ls
+  582  git checkout y
+  583  ls
+  584  git cherry-pick 779d2ba
+  585  ls
+  586  history > rebase_cherrypick_commands.txt
