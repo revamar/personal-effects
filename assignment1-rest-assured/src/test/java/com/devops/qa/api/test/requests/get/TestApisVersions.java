@@ -2,14 +2,12 @@ package com.devops.qa.api.test.requests.get;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import com.devops.qa.api.test.reports.*;
 
-@Listeners({ExtentITestListenerAdapter.class})
+//@Listeners({ExtentITestListenerAdapter.class})
 public class TestApisVersions{
 
 	RequestSpecification request;
