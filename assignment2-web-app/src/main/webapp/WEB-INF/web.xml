@@ -4,24 +4,4 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-  	<servlet-name>Assignment2</servlet-name>
-  	<display-name>Assignment2</display-name>
-  	<description></description>
-  	<servlet-class>com.devops.qa.web.apps.Assignment2</servlet-class>
-  </servlet>
-  <servlet>
-  	<servlet-name>Assignment</servlet-name>
-  	<display-name>Assignment</display-name>
-  	<description></description>
-  	<servlet-class>com.devops.qa.web.apps.Assignment</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>Assignment2</servlet-name>
-  	<url-pattern>/Assignment2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>Assignment</servlet-name>
-  	<url-pattern>/Assignment</url-pattern>
-  </servlet-mapping>
 </web-app>
