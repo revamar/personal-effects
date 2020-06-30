@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Key: Server Value: nginx]]>
+    </line>
+    <line>
+      <![CDATA[Key: Date Value: Tue, 05 May 2020 17:16:31 GMT]]>
+    </line>
+    <line>
+      <![CDATA[Key: Content-Type Value: application/json; charset=UTF-8]]>
+    </line>
+    <line>
+      <![CDATA[Key: Transfer-Encoding Value: chunked]]>
+    </line>
+    <line>
+      <![CDATA[Key: Connection Value: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[Key: X-Frame-Options Value: DENY]]>
+    </line>
+    <line>
+      <![CDATA[Key: X-XSS-Protection Value: 1; mode=block]]>
+    </line>
+    <line>
+      <![CDATA[Key: X-Content-Type-Options Value: nosniff]]>
+    </line>
+    <line>
+      <![CDATA[Key: Content-Security-Policy Value: report-uri https://app.asana.com/-/csp_report?report_only=false;default-src 'none';frame-src 'none';frame-ancestors 'none']]>
+    </line>
+    <line>
+      <![CDATA[Key: X-Asana-Api-Version Value: 1.1]]>
+    </line>
+    <line>
+      <![CDATA[Key: X-Robots-Tag Value: none]]>
+    </line>
+    <line>
+      <![CDATA[Key: Strict-Transport-Security Value: max-age=31536000; includeSubDomains]]>
+    </line>
+    <line>
+      <![CDATA[Key: Datacenter-Time-End Value: 1588698991.340]]>
+    </line>
+    <line>
+      <![CDATA[Key: X-LoadBalancer Value: prod-lb005.ec2]]>
+    </line>
+    <line>
+      <![CDATA[Key: Content-Encoding Value: gzip]]>
+    </line>
+  </reporter-output>
+  <suite name="platform" duration-ms="4901" started-at="2020-05-05T22:46:26 IST" finished-at="2020-05-05T22:46:31 IST">
+    <groups>
+    </groups>
+    <test name="RestApis" duration-ms="4901" started-at="2020-05-05T22:46:26 IST" finished-at="2020-05-05T22:46:31 IST">
+      <class name="com.rest.api.tests.users.AsanaUserApi">
+        <test-method status="PASS" signature="getUserDetailsTest()[pri:0, instance:com.rest.api.tests.users.AsanaUserApi@694e1548]" name="getUserDetailsTest" duration-ms="2509" started-at="2020-05-05T22:46:26 IST" finished-at="2020-05-05T22:46:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetailsTest -->
+        <test-method status="PASS" signature="getUsersOfAsanaApi()[pri:0, instance:com.rest.api.tests.users.AsanaUserApi@694e1548]" name="getUsersOfAsanaApi" duration-ms="2350" started-at="2020-05-05T22:46:29 IST" finished-at="2020-05-05T22:46:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Key: Server Value: nginx]]>
+            </line>
+            <line>
+              <![CDATA[Key: Date Value: Tue, 05 May 2020 17:16:31 GMT]]>
+            </line>
+            <line>
+              <![CDATA[Key: Content-Type Value: application/json; charset=UTF-8]]>
+            </line>
+            <line>
+              <![CDATA[Key: Transfer-Encoding Value: chunked]]>
+            </line>
+            <line>
+              <![CDATA[Key: Connection Value: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[Key: X-Frame-Options Value: DENY]]>
+            </line>
+            <line>
+              <![CDATA[Key: X-XSS-Protection Value: 1; mode=block]]>
+            </line>
+            <line>
+              <![CDATA[Key: X-Content-Type-Options Value: nosniff]]>
+            </line>
+            <line>
+              <![CDATA[Key: Content-Security-Policy Value: report-uri https://app.asana.com/-/csp_report?report_only=false;default-src 'none';frame-src 'none';frame-ancestors 'none']]>
+            </line>
+            <line>
+              <![CDATA[Key: X-Asana-Api-Version Value: 1.1]]>
+            </line>
+            <line>
+              <![CDATA[Key: X-Robots-Tag Value: none]]>
+            </line>
+            <line>
+              <![CDATA[Key: Strict-Transport-Security Value: max-age=31536000; includeSubDomains]]>
+            </line>
+            <line>
+              <![CDATA[Key: Datacenter-Time-End Value: 1588698991.340]]>
+            </line>
+            <line>
+              <![CDATA[Key: X-LoadBalancer Value: prod-lb005.ec2]]>
+            </line>
+            <line>
+              <![CDATA[Key: Content-Encoding Value: gzip]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsersOfAsanaApi -->
+      </class> <!-- com.rest.api.tests.users.AsanaUserApi -->
+    </test> <!-- RestApis -->
+  </suite> <!-- platform -->
+</testng-results>
