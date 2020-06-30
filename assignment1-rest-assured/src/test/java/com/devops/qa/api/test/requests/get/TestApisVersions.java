@@ -7,7 +7,6 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-//@Listeners({ExtentITestListenerAdapter.class})
 public class TestApisVersions{
 
 	RequestSpecification request;
