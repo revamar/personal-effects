@@ -7,6 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>assignment2-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
@@ -19,4 +20,16 @@
   <build>
     <finalName>assignment2-web-app</finalName>
   </build>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>devnag-coedev010.nagarro.local-releases</name>
+        <url>http://10.127.130.66:8040/artifactory/nagarro-qe-amar</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>devnag-coedev010.nagarro.local-snapshots</name>
+        <url>http://10.127.130.66:8040/artifactory/nagarro-qe-amar</url>
+    </snapshotRepository>
+	</distributionManagement>
 </project>
