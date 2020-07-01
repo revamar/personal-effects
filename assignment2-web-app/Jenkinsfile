@@ -1,0 +1,59 @@
+pipeline {
+   agent any
+   tools {
+      // Install the Maven version configured as "M3" and add it to the path.
+      maven "M3"
+   }
+    stages {
+      stage('Checkout') {
+			steps{
+				// Get some code from a GitHub repository
+				git 'https://github.com/revamar/personal-effects.git'
+			    //bat "cd assignment2-web-app"
+         }
+		 }
+	    stage('Unit Tests'){
+		    steps{
+		        
+		        bat "mvn -f assignment2-web-app/pom.xml install --settings assignment2-web-app/settings.xml"
+		        //Run maven clean goal
+		        bat "mvn -f assignment2-web-app/pom.xml clean"
+		        //compile sources
+		        bat "mvn -f assignment2-web-app/pom.xml compile"
+		        
+		        //mvn test compile
+		        bat "mvn -f assignment2-web-app/pom.xml test-compile"
+		        
+		        //Run Unit Test before package
+		        bat "mvn -f assignment2-web-app/pom.xml test"
+		    }
+		} 
+		stage('package artifacts'){
+			steps{
+				// Run Maven on a Unix agent.
+				//sh "mvn -Dmaven.test.failure.ignore=true clean package"
+				
+				// To run Maven on a Windows agent, use
+				 bat "mvn -f assignment2-web-app/pom.xml package"
+			}
+		}
+		stage('Sonar Analysis'){
+		    steps{
+	            echo "sonar"
+                withSonarQubeEnv('local sonar')
+	            {
+	               bat "mvn -f assignment2-web-app/pom.xml sonar:sonar"
+	                //bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.6.0.1398:sonar"
+	            }
+
+		    }
+		}
+		stage('Upload Artifacts'){
+		    steps{
+		        echo "Artifacts upload is in progress"
+		        
+		        bat "mvn -f assignment2-web-app/pom.xml install --settings assignment2-web-app/settings.xml deploy"
+		        }
+		    }
+		}
+   }
