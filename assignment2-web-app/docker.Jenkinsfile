@@ -1,7 +1,10 @@
 node {
+	tools {
+      // Install the Maven version configured as "M3" and add it to the path.
+      		maven "M3"
+   	}
     def app
-    
-    stage('Clone repository') {
+     stage('Clone repository') {
         /* Let's make sure we have the repository cloned to our workspace */
 
         checkout scm
