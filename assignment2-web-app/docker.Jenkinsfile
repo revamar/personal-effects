@@ -19,8 +19,7 @@ node {
 		 * For this example, we're using a Volkswagen-type approach ;-) */
 
 		app.inside {
-			docker.image('./assignment2-web-app/dockerdudeamar/webapp-alpine').withRun('-p 8745:8080 --name amar_insta -d --rm'){
-			}
+			sh 'make test'
 		}
 	    }
 
