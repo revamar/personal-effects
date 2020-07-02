@@ -10,10 +10,8 @@ node {
 			} 
 
 	    stage('Build image') {
-		/* This builds the actual image; synonymous to
-		 * docker build on the command line */
 
-		app = docker.build("dockerdudeamar/webapp-alpine")
+		app = docker.build("dockerdudeamar/webapp-alpine", "./assignment2-web-app/Dockerfile")
 	    }
 
 	    stage('Test image') {
