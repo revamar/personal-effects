@@ -19,16 +19,12 @@ node {
 		 * For this example, we're using a Volkswagen-type approach ;-) */
 
 		app.inside {
-			docker.image('dockerdudeamar/webapp-alpine').withRun('-p 8745:8080 --name amar_insta -d --rm'){
+			docker.image("dockerdudeamar/webapp-alpine", "./assignment2-web-app/").withRun('-p 8745:8080 --name amar_insta -d --rm'){
 			}
 		}
 	    }
 
 	    stage('Push image') {
-		/* Finally, we'll push the image with two tags:
-		 * First, the incremental build number from Jenkins
-		 * Second, the 'latest' tag.
-		 * Pushing multiple tags is cheap, as all the layers are reused. */
 		docker.withRegistry('https://registry.hub.docker.com', 'dockerHubRegistery') {
 		    app.push("${env.BUILD_NUMBER}")
 		    app.push("latest")
