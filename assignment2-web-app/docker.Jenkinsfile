@@ -11,7 +11,7 @@ node {
 
 	    stage('Build image') {
 
-		app = docker.build("dockerdudeamar/webapp-alpine", "./assignment2-web-app/Dockerfile")
+		app = docker.build("dockerdudeamar/webapp-alpine", "./assignment2-web-app/")
 	    }
 
 	    stage('Test image') {
