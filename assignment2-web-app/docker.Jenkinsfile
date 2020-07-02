@@ -20,6 +20,8 @@ node {
 
 		app.inside {
 		    bat 'echo "Tests passed"'
+		    bat 'docker images'
+		    bat 'docker container ls'
 		}
 	    }
 
