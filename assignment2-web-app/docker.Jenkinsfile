@@ -19,9 +19,8 @@ node {
 		 * For this example, we're using a Volkswagen-type approach ;-) */
 
 		app.inside {
-		    bat 'echo "Tests passed"'
-		    bat 'docker images'
-		    bat 'docker container ls'
+			docker.image('dockerdudeamar/webapp-alpine').withRun('-p 8745:8080 --name amar_insta -d --rm'){
+			}
 		}
 	    }
 
