@@ -14,15 +14,6 @@ node {
 		app = docker.build("dockerdudeamar/webapp-alpine", "./assignment2-web-app/")
 	    }
 
-	    stage('Test image') {
-		/* Ideally, we would run a test framework against our image.
-		 * For this example, we're using a Volkswagen-type approach ;-) */
-
-		app.inside {
-			bat 'make test'
-		}
-	    }
-
 	    stage('Push image') {
 		docker.withRegistry('https://registry.hub.docker.com', 'dockerHubRegistery') {
 		    app.push("${env.BUILD_NUMBER}")
